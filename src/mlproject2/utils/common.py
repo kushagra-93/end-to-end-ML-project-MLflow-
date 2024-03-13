@@ -1,7 +1,8 @@
 import os
 from box.exceptions import BoxValueError
 import yaml
-from src.mlproject2 import logger
+from mlproject2 import logger
+#from src.mlproject2 import logger    #same as above... some times both creating problems
 import json
 import joblib
 from ensure import ensure_annotations
