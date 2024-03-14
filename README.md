@@ -28,7 +28,7 @@ Clone the repository
 ```bash
 https://github.com/kushagra-93/end-to-end-ML-project-MLflow-
 ```
-### STEP 01- Create a conda environment after opening the repository
+### STEP 01- Create a virtual environment after opening the repository
 
 ```bash
 $ cd /Users/kushagragahlaut/Desktop/virtual/venv
@@ -120,7 +120,7 @@ export MLFLOW_TRACKING_PASSWORD=347f78cb9570017f67ff254eed7958fc7e672bfe
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.ap-south-1.amazonaws.com/mlproj
+    - Save the URI: 471112605168.dkr.ecr.eu-north-1.amazonaws.com/mlproj
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -156,9 +156,9 @@ export MLFLOW_TRACKING_PASSWORD=347f78cb9570017f67ff254eed7958fc7e672bfe
 
     AWS_REGION = us-east-1
 
-    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+    AWS_ECR_LOGIN_URI = demo>>  471112605168.dkr.ecr.eu-north-1.amazonaws.com
 
-    ECR_REPOSITORY_NAME = simple-app
+    ECR_REPOSITORY_NAME = mlproj
 
 
 
